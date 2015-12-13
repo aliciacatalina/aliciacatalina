@@ -1,0 +1,6 @@
+{
+  "generator-react-webpack": {
+    "appName": "aliciacatalina",
+    "style": "scss"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "hero": {
+    "image": "../images/Cosmos09.jpg",
+    "name": "Alicia González",
+    "description": "I'm a web developer",
+    "passion": "With a passion for detail, performance, the cosmos, the human brain and dogs.",
+    "mexico": "I am from Monterrey, Mexico",
+    "copenhagen": "But now I'm living in Copenhagen, Denmark",
+    "contact": {
+      "text": "If you want to build something together you can find me here",
+      "email": "aliciaacatalina@gmail.com",
+      "twitter": "alicia_catalina",
+      "instagram": "aliciacatalina"
+    }
+  }
+}

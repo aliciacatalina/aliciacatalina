@@ -22,11 +22,25 @@ $breakpoint-tablet: 768px;
     background-size: contain;
     background-attachment: fixed;
     background-image: none;
+
+    @media (min-width: $breakpoint-tablet) {
+      background-color: $background-color;
+    }
+
+    h1 {
+      color:#FFF;
+      @media (min-width: $breakpoint-tablet) {
+        color: $text-color;
+      }
+    }
   }
 
     &__highlight {
-      color: rgba(0,0,0,0.4);
+      color: rgba(255, 255, 255, 0.5);
       transition: color .3s ease-in-out;
+      @media (min-width: $breakpoint-tablet) {
+        color: rgba(0,0,0,0.4);
+      }
 
       &:hover {
         color: #8EBACD;
@@ -38,8 +52,10 @@ $breakpoint-tablet: 768px;
   background-image: none;
   background-size: contain;
   background-position: bottom center;
+  background-color: rgba(0,0,0,.8);
   @media (min-width: $breakpoint-tablet) {
     background-image: url('../../../images/linea.png');
+    background-color: $background-color;
   }
 
   h1 {
@@ -48,9 +64,11 @@ $breakpoint-tablet: 768px;
 }
 
 .m-passion {
+  background-color: rgba(0,0,0,.4);
   background-size: contain;
   @media (min-width: $breakpoint-tablet) {
     background-image: url('../../../images/cosmos.png');
+    background-color: $background-color;
   }
 
   h1 {
@@ -69,10 +87,12 @@ $breakpoint-tablet: 768px;
 }
 
 .m-description, .m-contact {
+  background-color: rgba(0,0,0,.6);
   background-size: contain;
   background-position: bottom center;
   @media (min-width: $breakpoint-tablet) {
     background-image: url('../../../images/compu.png');
+    background-color: $background-color;
   }
 
   h1 {
@@ -87,8 +107,10 @@ $breakpoint-tablet: 768px;
 }
 
 .m-mexico {
+  background-color: rgba(0,0,0,.3);
   @media (min-width: $breakpoint-tablet) {
     background-image: url('../../../images/mty.png');
+    background-color: $background-color;
   }
 
   h1 {
@@ -103,8 +125,10 @@ $breakpoint-tablet: 768px;
 }
 
 .m-copenhagen {
+  background-color: rgba(0,0,0,.2);
   @media (min-width: $breakpoint-tablet) {
     background-image: url('../../../images/cph.png');
+    background-color: $background-color;
   }
 
   h1 {
@@ -121,8 +145,10 @@ $breakpoint-tablet: 768px;
 }
 
 .m-contact {
+  background-color: rgba(255,255,255,1);
   @media(min-width: $breakpoint-tablet) {
     background-image: url('../../../images/lineacompleta.png');
+    background-color: $background-color;
   }
 
   h1 {

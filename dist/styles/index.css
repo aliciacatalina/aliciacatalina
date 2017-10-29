@@ -7,6 +7,7 @@ body {
   flex-direction: column;
   height: 100vh;
   margin: 0;
+  padding: 0 20px;
 }
 
 h1 {
@@ -40,4 +41,14 @@ h1 {
 
 .link:hover {
   text-decoration-line: line-through;
+}
+
+@media screen and (max-width: 700px) {
+  .links {
+    flex-direction: column;
+  }
+
+  .link {
+    flex: 0 0 auto;
+  }
 }

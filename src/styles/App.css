@@ -1,7 +1,0 @@
-/* Base Application Styles */
-html, body, #app { height: 100%; }
-body {
-  color: #1F1F1F;
-  background: #FFF;
-  font-family: 'Playfair Display', serif;
-}
